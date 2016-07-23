@@ -1,0 +1,38 @@
+{
+  "name": "stobbsm/dndmapper",
+  "version": "0.0.1-dev",
+  "description": "A Map maker for Dungeons and Dragons like games",
+  "minimum-stability": "dev",
+  "license": "GPL3",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Matthew Stobbs",
+      "email": "matthew@sproutingcommunications.com",
+      "role": "Lead",
+      "homepage": "https://www.sproutingcommunications.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "DnDMapper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DnDMapper\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/stobbsm/dndmapper.git"
+    }
+  ]
+}
